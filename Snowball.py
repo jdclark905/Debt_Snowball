@@ -12,6 +12,7 @@ from PyQt5 import QtWidgets
 from DebtSnowBallGUI import Ui_MainWindow
 
 debts = []
+new = 2
 months = 1 #time tracker
 leftOver = 0 #tracks debt amount to roll over after overpayment
 snowBall = 0 #tracks the payments after debts are paid off to snowball
